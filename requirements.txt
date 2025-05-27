@@ -1,0 +1,23 @@
+﻿# requirements.txt
+#
+# Core data-processing & notebook utilities
+pandas>=2.1.0
+nbformat>=5.9.0
+
+# Large-language-model API + retry helper
+openai>=1.2.0
+tenacity>=8.2.2
+
+# PDF reporting (optional, used by m5.py if PDF export is re-enabled)
+fpdf2>=2.7.5
+
+# Web interface
+streamlit>=1.31.0
+
+# Google Sheets export (task 3 of the roadmap)
+gspread>=6.0.0
+google-auth>=2.24.0
+google-auth-oauthlib>=1.1.0
+
+# Environment variable convenience (optional)
+python-dotenv>=1.0.0
